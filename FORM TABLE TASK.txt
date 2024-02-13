@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <title>RegisterForm</title>
+</head>
+<style>
+    table{
+        width: 800px;
+
+    }
+    th{
+        padding: 25PX;
+    }
+        
+</style>
+<body>
+    <table border="2" align="center">
+    
+    <form>
+        <tr><th colspan="2" style="font-size: large;">Registration Form</th>
+            </tr>
+        <tr><td><label>Student Name</label></td>
+    <td><input type="text" name="name" value=""></td></tr>
+    <tr></tr><td><label>Father's Name</label></td>
+    <td><input type="text" name="name" value=""></td></tr>
+    <tr></tr><td><label>Mother's Name     </label></td>
+    <td><input type="text" name="name" value=""></td></tr>
+    <tr><td><label>Date of Birth</label></td>
+        <td><input type="date"></td></tr>
+    <tr><td><label>Gender:</label></td>
+            <td><input type="radio" name="sex"><label>Male</label>
+            <input type="radio" name="sex"><label>Female</label></td>
+          </tr>
+    <tr><td><label>Email ID:</label></td>
+        <td><input type="email" name="email"></td></tr>
+    <tr><td><label>Mobile No.</label></td>
+    <td><input type="number"></td></tr>
+   <tr><td><label>Address:</label> </td>
+   <td><textarea cols="30" rows="3">please enter your address</textarea></td></tr>
+   
+  <tr><td><label>State</label></td>
+  <td><input type="text"></td></tr>
+  <tr><td><label>City</label></td>
+    <td><input type="text"></td></tr>
+<tr><td></td><td><input type="submit" value="Submit"></td></tr>
+    </form>
+</body>
+  
